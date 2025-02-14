@@ -1,0 +1,11 @@
+<div class="mx-auto w-75" ng-controller="ListController as ctrl">
+    <h1 class="text-center">List</h1>
+    <table class="table table-hover" ng-repeat="product in ctrl.products"> 
+        <tr class="fs-4">
+            <td>{{ctrl.product.id}}</td>
+            <td>{{ctrl.product.name}}</td>
+            <td><img src="/images/{{product.picture}}"></td>
+            <td>{{ctrl.product.price}}</td>
+        </tr>
+    </table>
+</div>

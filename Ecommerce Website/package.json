@@ -1,0 +1,17 @@
+{
+  "name": "ecommerce-website",
+  "version": "1.0.0",
+  "description": "Ecommerce website",
+  "main": "angular.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "Prathamesh Pisale",
+  "license": "ISC",
+  "dependencies": {
+    "@types/angular": "^1.8.9",
+    "angular": "^1.8.3",
+    "typescript": "^5.7.3"
+  }
+}
